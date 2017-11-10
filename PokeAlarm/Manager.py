@@ -1007,7 +1007,7 @@ class Manager(object):
         form = self.__locale.get_form_name(pkmn_id, raid_pkmn['form_id'])
         min_cp, max_cp = get_pokemon_cp_range(pkmn_id, 20)
 
-	if raid['gym_name'] == 'unknown':  # if RM or empty
+	if raid['gym_name'] == 'unknown':  # if RM or empty 
 	    raid['gym_name'] = gym_info['name']
         
         raid.update({
